@@ -1,0 +1,49 @@
+body{
+	background-image: url(body.jpg) ;
+	color: white;
+	text-align: justify;
+	background-size: 100% 100%;
+	background-repeat: x-repeat;
+	height: 100%;
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 50;
+	line-height:1.5;
+}
+.header {
+	padding-top: 15px;
+	margin: 0px;
+	color: rgb(31, 31, 119);
+}
+h2{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+h3{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 0px;
+}
+.main{
+	width: 50%;
+	padding-left: 10%;
+	float:left;
+	padding-top: 70px;
+}
+.sidebar{
+	float: left;
+	width: 20%;
+	padding: 10%;
+	padding-top: 150px;
+	height: 100%;
+}
+a{
+	color: rgb(102, 222, 243);
+	text-decoration: none;
+	font-weight: 600;
+}
+
+hr{
+	color:midnightblue ;
+	background-color: midnightblue;
+}
