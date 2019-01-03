@@ -48,8 +48,10 @@ h3{
     font-size: 30px;
 }
 @keyframes fire{
-    0%{background-position: 0% 50%}
-    100%{background-position: 100% -50%}
+    0%{background-position: 0% 100%}
+    33%{background-position: 33% 66%}
+    66%{background-position: 66% 33%}
+    100%{background-position: 100% 0%}
 }
 a{
     color: rgb(255, 81, 0);
