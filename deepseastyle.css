@@ -1,0 +1,82 @@
+body{
+	background-image: url(body.jpg) ;
+	color: white;
+	text-align: justify;
+	background-size: 100% 100%;
+	background-repeat: x-repeat;
+	height: 100%;
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 50;
+	line-height:1.5;
+}
+h2{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 25px;
+	color: rgb(102, 222, 243);
+}
+h3{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 0px;
+	color: rgb(102, 222, 243);
+	opacity: 0.6;
+}
+.header {
+	padding-top: 15px;
+	margin: 0px;
+	color: rgb(31, 31, 119);
+	opacity: 0.9;
+}
+.main{
+	width: 50%;
+	padding-left: 10%;
+	float:left;
+	padding-top: 70px;
+	opacity: 0.8;
+}
+.sidebar{
+	float: left;
+	width: 20%;
+	padding: 10%;
+	padding-top: 150px;
+	height: 100%;
+	opacity: 0.8;
+}
+a{
+	color: rgb(102, 222, 243);
+	text-decoration: none;
+	font-weight: 600;
+}
+
+
+.link{
+	color: midnightblue;
+	text-decoration: bold;
+	padding-left: 40%;
+	text-align: center;
+	
+}
+h3:hover{
+	opacity: 1;
+	background: midnightblue;
+	color: white;
+}
+p:hover{
+	opacity: 1;
+	background: url(water.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: water 5s linear infinite;
+	display: block;
+	
+}
+
+@keyframes water{
+    0%{background-position: 0% 100%}
+	50%{background-position: 50% 50%}
+	100%{background-position: 100% 0%}
+}
