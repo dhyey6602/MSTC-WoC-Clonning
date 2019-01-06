@@ -26,6 +26,7 @@ body{
     width: 20%;
     float: left;
     padding: 5%;
+    text-align: center;
 }
 h3{
     text-align: center;
@@ -36,4 +37,23 @@ h3{
 }
 a{
     color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.top{
+	position: fixed;
+	height: 40px;
+	width: 50px;
+	background: white;
+	bottom: 10%;
+	right: 1px;
+	z-index: 1;
+	color:black;
+	text-align: center;
+	padding-top: 10px;
+}
+a:hover{
+    background: white;
+    border-radius: 4px;
+    color: black;
 }

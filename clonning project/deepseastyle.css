@@ -80,3 +80,15 @@ p:hover{
 	50%{background-position: 50% 50%}
 	100%{background-position: 100% 0%}
 }
+.top{
+	position: fixed;
+	height: 40px;
+	width: 50px;
+	background: dodgerblue;
+	bottom: 10%;
+	right: 1px;
+	z-index: 1;
+	color:white;
+	text-align: center;
+	padding-top: 10px;
+}
